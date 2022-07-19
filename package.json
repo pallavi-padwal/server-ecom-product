@@ -4,7 +4,7 @@
     "description": "A sample Node.js app using Express 4",
     "main": "index.js",
     "scripts": {
-        "start": "node index.js"
+        "start": "nodemon index.js"
     },
     "dependencies": {
         "express": "^4.13.3"
@@ -22,5 +22,8 @@
     "contributors": [
         "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
     ],
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {
+        "nodemon": "^2.0.19"
+    }
 }
